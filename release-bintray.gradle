@@ -2,11 +2,11 @@ apply plugin: 'maven-publish'
 apply plugin: 'com.jfrog.bintray'
 
 def upload = [
-        user       : 'yarolegovich',
+        user       : 'ElParking',
         artifactId : 'discrete-scrollview',
-        userOrg    : 'yarolegovich',
+        userOrg    : 'ElParking',
         repository : 'maven',
-        groupId    : 'com.yarolegovich',
+        groupId    : 'com.ElParking',
         uploadName : 'DiscreteScrollView',
         description: 'A scrollable list of items that centers the current element and provides easy-to-use APIs for cool item animations.',
         version    : '1.5.1',
